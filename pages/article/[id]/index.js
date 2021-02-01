@@ -18,7 +18,7 @@ function article({ article }) {
 
 export default article
 
-export const getStaticProps = async (context) => {
+/* export const getStaticProps = async (context) => {
   const res = await fetch(`${server}/api/articles/${context.params.id}`)
 
   const article = await res.json()
@@ -26,7 +26,7 @@ export const getStaticProps = async (context) => {
   return {
     props: { article },
   }
-}
+} */
 
 /* export const getStaticPaths = async () => {
   const res = await fetch(`${server}/api/articles/`)
