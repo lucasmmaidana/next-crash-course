@@ -1,0 +1,15 @@
+.container {
+  padding: 1em;
+  background-color: rgb(235, 235, 236);
+
+  ul {
+    display: flex;
+    gap: 2em;
+    li {
+      list-style: none;
+      a {
+        font-weight: 500;
+      }
+    }
+  }
+}
